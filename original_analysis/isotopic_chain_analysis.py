@@ -1,3 +1,23 @@
+"""
+Master Thesis:
+Numerical Study of the Hulthén Model for Alpha Decay
+
+Author:
+Othmane Samodi
+
+Purpose:
+Determine the screening parameter for individual nuclei.
+
+This script:
+- Solves T_theoretical(a) = T_experimental for each nucleus.
+- Extracts the corresponding screening parameter a.
+- Groups nuclei by isotopic chain.
+- Generates a(N) curves.
+
+Date:
+2026
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import brentq
