@@ -1,3 +1,24 @@
+"""
+Master Thesis:
+Numerical Study of the Hulthén Model for Alpha Decay
+
+Author:
+Othmane Samodi
+
+Purpose:
+Extract screening parameters for nuclei satisfying
+the Coulomb validity criterion.
+
+This script:
+- Applies the Coulomb validity criterion.
+- Solves T_theoretical(a) = T_experimental.
+- Groups nuclei by isotopic chain.
+- Generates a(N) curves.
+
+Date:
+2026
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import brentq, minimize_scalar
