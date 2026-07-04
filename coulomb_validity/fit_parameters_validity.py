@@ -1,3 +1,30 @@
+"""
+Master Thesis:
+Numerical Study of the Hulthén Model for Alpha Decay
+
+Author:
+Othmane Samodi
+
+Purpose:
+Reproduce the reference calculations after applying
+the Coulomb validity criterion.
+
+Validity criterion:
+Only nuclei satisfying
+
+    T_Coulomb > T_experimental
+
+are retained.
+
+This script:
+- Determines optimal screening parameters.
+- Determines hindrance factors for unfavored decays.
+- Computes RMS deviations σ.
+
+Date:
+2026
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize_scalar
