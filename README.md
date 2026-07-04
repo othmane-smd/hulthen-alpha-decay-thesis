@@ -21,6 +21,7 @@ coulomb_validity/
     isotopic_chain_analysis_validity.py
 
 Notes:
-The numerical calculations were performed in Python.
+- Nuclear datasets are directly embedded in the scripts.
+- The numerical calculations were performed in Python.
 The final figures included in the thesis were generated
 in Mathematica using the exported numerical data.
