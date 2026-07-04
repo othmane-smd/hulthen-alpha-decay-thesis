@@ -1,3 +1,27 @@
+"""
+Master Thesis:
+Numerical Study of the Hulthén Model for Alpha Decay
+
+Author:
+Othmane Samodi
+
+Purpose:
+Reproduce the results reported in the reference article.
+
+This script:
+- Separates nuclei into favored and unfavored decay groups.
+- Determines the optimal screening parameter a.
+- Determines hindrance factors h for unfavored decays.
+- Computes the RMS deviation σ between theoretical and experimental half-lives.
+- Generates the numerical results and comparison figures used for validation.
+
+Reference:
+Budaca & Budaca, Hulthén potential model for alpha decay.
+
+Date:
+2026
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize, minimize_scalar
