@@ -10,14 +10,15 @@ Alpha decay half-lives calculated with the Hulthén potential.
 
 Repository structure:
 
-scripts/
-    Numerical calculations.
+original_analysis/
+    fit_parameters.py
+    extract_screening_parameter.py
+    isotopic_chain_analysis.py
 
-data/
-    Generated datasets and CSV files.
-
-figures/
-    Generated figures.
+coulomb_validity/
+    fit_parameters_validity.py
+    extract_screening_parameter_validity.py
+    isotopic_chain_analysis_validity.py
 
 Notes:
 The numerical calculations were performed in Python.
